@@ -59,7 +59,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Operations</h3>
             <h4 className="vertical-timeline-element-subtitle">HCL Tech, Noida</h4>
             <p>
-              Worked with US Client Pearson Vue to conduct online exam
+              Worked for US Client Pearson Vue to conduct online exam
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

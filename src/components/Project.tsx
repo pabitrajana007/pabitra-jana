@@ -5,9 +5,9 @@ import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
 import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
+import Management from '../assets/images/Management.png';
+import web from '../assets/images/web.png';
+import chatbot from '../assets/images/chatbot.png';
 import mock10 from '../assets/images/mock10.png';
 import '../assets/styles/Project.scss';
 
@@ -22,17 +22,17 @@ function Project() {
                 <p>Developed full-stack web application that provides personalized movie recommendations.The recommendation logic leverages the TF-IDF Vectorizer and Cosine Similarity to find movies that closely match the user’s taste.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/pabitrajana007/assignment" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/pabitrajana007/assignment" target="_blank" rel="noreferrer"><img src={chatbot} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/pabitrajana007/assignment" target="_blank" rel="noreferrer"><h2>Chatbot</h2></a>
                 <p>This is a full-stack chatbot web application built with ReactJS (frontend) and Flask (backend). Users can chat with a GPT-powered assistant, view conversation history, and bookmark favorite responses. The app also stores and retrieves messages using a PostgreSQL database.</p>
             </div>
             <div className="project">
-                <a href="https://www.megamirai.com/" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.megamirai.com/" target="_blank" rel="noreferrer"><img src={web} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.megamirai.com/" target="_blank" rel="noreferrer"><h2>Website Development</h2></a>
                 <p>Developed a website for a Japanese Company for India office. Made website from scratch using HTML, CSS, Javascript and helped to choose domain and deployment. Implemented a static Google Map for contact-us Page. </p>
             </div>
             <div className="project">
-                <a href="https://github.com/pabitrajana007/project" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/pabitrajana007/project" target="_blank" rel="noreferrer"><img src={Management} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/pabitrajana007/project" target="_blank" rel="noreferrer"><h2>Jobify</h2></a>
                 <p>This is a SAAS Platform both for Job Seeker's and Company. Employee Management Tool (SAAS Platform)</p>
             </div>
